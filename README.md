@@ -12,6 +12,16 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+Project Gutenberg Modifications
+===============================
+
+I changed the background to a darker shade of gray, emulating dark mode. I also changed the paragraph and header colours
+to match. I went with 2 main different header colours, with h2 also becoming much larger and having impact font.
+Paragraph character spacing was decreased, font set to Times, and font size decreased. Various other small changes were made,
+mainly to match dark mode. For images, I gave a white border and rounded edges. Image captions are in cursive for no
+specific reason. I left every image alone except the ulysses cover, and the same with some image captions as editing 300+ 
+captions and images is dumb.
+
 License/Copyright
 =================
 
