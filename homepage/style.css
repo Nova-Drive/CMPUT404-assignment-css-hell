@@ -1,0 +1,119 @@
+body, html {
+    /* full page background code taken from https://www.w3schools.com/howto/howto_css_full_page.asp */
+    height:100%;
+    /*margin-left: 2%;*/
+    background-color: #8AAAE5;
+}
+.bg {
+    /* full page background code taken from https://www.w3schools.com/howto/howto_css_full_page.asp */
+    /* The image used */
+
+  }
+  h1{
+    /*Main Title*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    /*background-color: blue;*/
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
+  h2{
+    /*Section Header*/
+    text-align: center;
+  }
+
+  div.body1{
+    float: left;
+    box-shadow: 10px 5px 5px yellow;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width:fit-content;
+    background-color: #FCF6F5FF;
+    border-radius: 10%;
+
+  }
+  div.body2{
+    box-shadow: 10px 5px 5px red;
+    float: right;
+    width: fit-content;
+    margin-right: 2%;
+    border-radius: 10%;
+    padding-left: 10px;
+    background-color: #FCF6F5FF;
+  }
+  p{
+    width: 700px;
+    word-wrap: break-word;
+    font-size: large;
+  }
+  p.al{
+    text-align: center;
+  }
+  p.ar{
+    padding-right: 10px;
+  }
+ img{
+    width: auto;
+    height: 200px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+ }
+  .selfie{
+    /*For my picture*/
+    /*float: left;*/
+    
+    border-radius: 50%;
+  }
+  .selfieCap{
+    width: 400px;
+    height: auto;
+    word-wrap: break-word;
+    padding-left: 30px;
+  }
+
+ul{
+    float: right;
+    width: 40px;
+    padding-right: 40px;
+    list-style-type: circle;
+    height: fit-content;
+    background-color: aqua;
+    justify-content: center;
+}
+
+/* Sidebar from https://blog.hubspot.com/website/css-sidebar, Jamie Juviler */
+
+/* CSS */
+
+
+.sidebar {
+    height: 300px;
+    width: 15%;
+    position: -webkit-sticky; /* for Safari users */
+    position: sticky;
+    display:flexbox;
+    border-radius: 5%;
+    top: 0px;
+    float: right;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 4px;
+    /*padding-right: 150px;*/
+    background-color: lightblue;
+    }
+    
+    .sidebar div {
+    padding: 5px;
+    font-size: 18px;
+    /*display: block;*/
+    justify-content: right;
+    }
+    
+    .body-text {
+    margin-right: 15px;
+    margin-left: 20px;
+    font-size: 18px;
+    }
